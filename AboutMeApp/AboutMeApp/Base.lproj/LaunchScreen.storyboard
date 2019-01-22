@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S5z-ay-UpB">
+                                <rect key="frame" x="0.0" y="265" width="375" height="137"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFI-z8-aha">
+                                        <rect key="frame" x="96" y="0.0" width="183" height="52"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="38"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MGa-Aw-xJq">
+                                        <rect key="frame" x="17.5" y="52" width="340" height="85"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-09-12 at 11.27.12 AM" translatesAutoresizingMaskIntoConstraints="NO" id="4RV-ZK-pnc">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="9IY-Ki-jhR"/>
+                                                    <constraint firstAttribute="height" constant="85" id="udS-jh-kUk"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-09-12 at 11.28.04 AM" translatesAutoresizingMaskIntoConstraints="NO" id="vRd-2i-7eh">
+                                                <rect key="frame" x="85" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="XQ0-cq-ZfV"/>
+                                                    <constraint firstAttribute="width" constant="85" id="dxa-7D-g86"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-09-12 at 11.28.41 AM" translatesAutoresizingMaskIntoConstraints="NO" id="ceY-iN-hs8">
+                                                <rect key="frame" x="170" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="Kox-Q4-mTe"/>
+                                                    <constraint firstAttribute="height" constant="85" id="YAz-yo-K7p"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-09-12 at 11.29.14 AM" translatesAutoresizingMaskIntoConstraints="NO" id="HjN-Ed-Umf">
+                                                <rect key="frame" x="255" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="Cnd-DM-lrf"/>
+                                                    <constraint firstAttribute="width" constant="85" id="Sks-UV-Tiu"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="S5z-ay-UpB" secondAttribute="trailing" id="4ei-NE-8YA"/>
+                            <constraint firstItem="S5z-ay-UpB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="T8E-jK-gcP"/>
+                            <constraint firstItem="S5z-ay-UpB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ZDZ-Ov-EEq"/>
+                            <constraint firstItem="S5z-ay-UpB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hDI-up-hXd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2018-09-12 at 11.27.12 AM" width="219" height="218"/>
+        <image name="Screen Shot 2018-09-12 at 11.28.04 AM" width="217" height="218"/>
+        <image name="Screen Shot 2018-09-12 at 11.28.41 AM" width="219" height="218"/>
+        <image name="Screen Shot 2018-09-12 at 11.29.14 AM" width="217" height="218"/>
+    </resources>
+</document>

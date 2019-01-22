@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="b89-OD-8fk">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="moon" translatesAutoresizingMaskIntoConstraints="NO" id="jyB-9h-36z">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="530"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="756" verticalCompressionResistancePriority="758" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UGG-7N-f6O">
+                                        <rect key="frame" x="0.0" y="547" width="375" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69U-zE-dHa" userLabel="Moon">
+                                                <rect key="frame" x="0.0" y="0.0" width="86.5" height="100"/>
+                                                <state key="normal" title="Button" image="Screen Shot 2018-09-12 at 11.27.12 AM"/>
+                                                <connections>
+                                                    <action selector="moonButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="68g-Rj-1wz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7j-Cp-nOh" userLabel="Book">
+                                                <rect key="frame" x="96.5" y="0.0" width="86" height="100"/>
+                                                <state key="normal" title="Button" image="Screen Shot 2018-09-12 at 11.28.04 AM"/>
+                                                <connections>
+                                                    <action selector="bookButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LQv-MN-pWP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBW-At-FfV" userLabel="Lizard">
+                                                <rect key="frame" x="192.5" y="0.0" width="86.5" height="100"/>
+                                                <state key="normal" title="Button" image="Screen Shot 2018-09-12 at 11.28.41 AM"/>
+                                                <connections>
+                                                    <action selector="lizardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1bd-07-DVd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-an-cHr" userLabel="Travel">
+                                                <rect key="frame" x="289" y="0.0" width="86" height="100"/>
+                                                <state key="normal" title="Button" image="Screen Shot 2018-09-12 at 11.29.14 AM"/>
+                                                <connections>
+                                                    <action selector="planeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OIc-DD-hu0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="fGP-Dr-Ypl"/>
+                                            <constraint firstAttribute="height" constant="100" id="hYJ-ZM-kKl"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b89-OD-8fk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="OkN-Ro-21z"/>
+                            <constraint firstAttribute="trailing" secondItem="b89-OD-8fk" secondAttribute="trailing" id="cDu-Yy-S4A"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="b89-OD-8fk" secondAttribute="bottom" id="dpt-hh-pzA"/>
+                            <constraint firstItem="b89-OD-8fk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oCm-oK-YJJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="photo" destination="jyB-9h-36z" id="sll-IR-MW5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2018-09-12 at 11.27.12 AM" width="219" height="218"/>
+        <image name="Screen Shot 2018-09-12 at 11.28.04 AM" width="217" height="218"/>
+        <image name="Screen Shot 2018-09-12 at 11.28.41 AM" width="219" height="218"/>
+        <image name="Screen Shot 2018-09-12 at 11.29.14 AM" width="217" height="218"/>
+        <image name="moon" width="640" height="537"/>
+    </resources>
+</document>

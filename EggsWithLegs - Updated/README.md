@@ -1,3 +1,9 @@
+# Eggs With Legs
 
-Link:
-https://github.com/chauphana/Eggs-with-Legs.git
+[link to repository](https://github.com/chauphana/Eggs-with-Legs.git)
+
+# Description 
+Similar to Balloons Tower Defence and Storm the House, Eggs With Legs is a tower defence survival game.  The main objective is to prevent the Eggs from destroying your fence and infultrating your barn.  By tapping and crackign the eggs, you earn coins which are redeemable in the local shop after each day.  In the shop, you can purchase upgrades to help crack the eggs, a tower which shoots the eggs automatically, or upgrade your fence health.
+
+# What I learned
+Eggs with Legs was by far the most complex and difficult app I helped develop.  Instead of creating a single view application, we decided to make a sprite kit game.  I was mostly involved in creating music, artwork, animation, designing and programming the shop, along with helping lay out the user interface.  Designing the shop and statistics page was by far the most challenging task I faced.  Similar to my issues with a single view app, optimising our game to run on every phone size and orientation was very difficult.  Looking back on how we developed the game, I think  we should have "hard coded" the buttons to a certian position on the screen.  Despite never working with animation before, I did not find animating the shop owner to be very difficult.  Where I ran into the most issues with the shop, was figuring out a way to show all of the different products to buy without overwhelming the viewer.  I tinkered around with adding multiple category tabs to the shop, but ultimately, we found simply minimizign the amount of products available to buy in the shop resulted in both better gameplay and a better functioning UI. While I did not do a lot of "programming" on Eggs With Legs, I learned a lot about designing a sprite kit game for the iPhone along with looking at the app from a user's point of view.

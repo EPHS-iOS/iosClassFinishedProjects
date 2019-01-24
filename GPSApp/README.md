@@ -1,0 +1,6 @@
+# Description
+
+The GPSApp is a simple app that utilizes MapKit to display a user's location on the globe, along with showing traffic data, changing the map's appearence. A search bar function is also included, where you can search for various landmarks accross the globe.
+
+# What I learned
+The GPSApp was originally supposed to be an app that simply retrieves the user's altitude and displays it on the screen.  However, after playing around with MapKit, I decided to change the apps direction more towards a "Google Earth" style application.  The most difficult part of creating the app was figuring out how to get the user's permission to access their location.  I was not aware of all the possible senarios a ther are regarding a user's location permissions (parental controls, always allow, allow when using the app, etc.).  I was most proud of creating a search bar that can display cities, famous buildings, and various other geographical landmarks. Contrary to what you may think, displaying traffic data and showing a user's current location failry simple to do with MapKit.  Where I ran into trouble, was figuring out how to have the user's current location constantly update to show their movement on the map.  

@@ -1,3 +1,7 @@
+
+
+Please view the [updated verson](https://github.com/nicodigiovanni/iosClassFinishedProjects/tree/master/EggsWithLegs%20-%20Updated) instead 
+
 # Eggs-with-Legs
 Team Egg Beater
 
@@ -8,3 +12,5 @@ Team Egg Beater
 ### About
 
 A tower defense style game based around the idea of eggs invading a farm. The farm has to defend itself from the horde of eggs.
+
+
